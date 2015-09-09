@@ -1,0 +1,38 @@
+% Loading training set for a supervised learning problem with n=1 features
+% The y-values are the heights measured in meters, and the x-values are the corresponding ages of the boys
+x = load('ex2x.txt');
+y = load('ex2y.txt');
+
+figure; % open a new figure window
+plot(x, y, '.');
+ylabel('Height in meters');
+xlabel('Age in years');
+
+% Total number of training examples
+m = length(y); 
+% Add a column of '1's to x
+x = [ones(m, 1), x]; 
+
+% Plot new data without clearing old plot
+hold on 
+% X is now a 2*m matrix with one coulmn set as '1'
+plot(x(:,2), x*theta, '-')
+legend('Training data', 'Linear regression')
+
+J_vals = zeros(100, 100);   % initialize Jvals to 100x100 matrix of 0's
+theta0_vals = linspace(-3, 3, 100);
+theta1_vals = linspace(-1, 1, 100);
+for i = 1:length(theta0_vals)
+	  for j = 1:length(theta1_vals)
+	  t = [theta0_vals(i); theta1_vals(j)];
+	  J_vals(i,j) = %% YOUR CODE HERE %%
+    end
+end
+
+% Plot the surface plot
+% Because of the way meshgrids work in the surf command, we need to 
+% transpose J_vals before calling surf, or else the axes will be flipped
+J_vals = J_vals'
+figure;
+surf(theta0_vals, theta1_vals, J_vals)
+xlabel('\theta_0'); ylabel('\theta_1')
