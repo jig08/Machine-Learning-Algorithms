@@ -1,6 +1,6 @@
 # Machine-Learning-Algorithms
 
-*Rudimentary implementaion of Basic Machine Leaarning Algorithms in Octave 4.0.0*
+*Rudimentary implementation of Basic Machine Learning Algorithms in Octave 4.0.0*
 
 - Linear Regression
 
