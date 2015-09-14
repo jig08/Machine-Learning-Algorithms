@@ -33,6 +33,8 @@
 
 - Classify an email as spam if : `log p(x|y=1)+log p(y=1) > log p(x|y=0)+log p(y=0)`
 
+####Output:
+
 - A sample run gives the classification error as: `fraction_wrong =  0.019231`.
 
 
