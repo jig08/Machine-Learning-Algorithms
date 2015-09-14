@@ -10,3 +10,7 @@
 
         
 *.... to be updated*
+
+***
+***
+**Gratitude:** `Machine Learning` by `Andrew Ng`
