@@ -7,6 +7,7 @@
 - [Logistic Regression and Newton's Method](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/Logistic-Regression-and-Newtons-Method)
 - [Regularization](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/Regularization)
 - [Naive Bayes](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/Naive_Bayes)
+- [Support Vector Machine : Linear Classification](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/SVM-Linear-Classification)
 
         
 *.... to be updated*
