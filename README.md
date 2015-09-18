@@ -9,6 +9,7 @@
 - [Naive Bayes](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/Naive_Bayes)
 - [Support Vector Machine : Linear Classification](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/SVM-Linear-Classification)
 - [Non-linear SVM Classification using RBF Kernel](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/Non-linear_SVM_classification_with_kernels)
+- [K-Means Clustering](https://github.com/jig08/Machine-Learning-Algorithms/tree/master/K-Means)
 
 
         
